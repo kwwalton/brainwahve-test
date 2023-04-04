@@ -23,6 +23,9 @@ module.exports = {
         "contact-sales-cta": "url('./assets/lookout.png')",
       },
     },
+    fontFamily: {
+      sans: ["Inter", "sans-serif"],
+    },
   },
   plugins: [],
 };

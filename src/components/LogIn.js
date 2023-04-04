@@ -24,6 +24,9 @@ function LogIn(props) {
     if (!event.target.value.trim().length) {
       setHasEmailError(true);
       setEmailErrorMessage("Email can not be blank.");
+    } else {
+      setHasEmailError(false);
+      setEmailErrorMessage("");
     }
   }
 
@@ -32,6 +35,9 @@ function LogIn(props) {
     if (!event.target.value.trim().length) {
       setHasPasswordError(true);
       setPasswordErrorMessage("Password can not be blank.");
+    } else {
+      setHasPasswordError(false);
+      setPasswordErrorMessage("");
     }
   }
 
@@ -40,13 +46,13 @@ function LogIn(props) {
     // do some more stuff like validate the inputs before posting the data
   }
   return (
-    <div className="flex flex-col mx-[20px] sm:mx-auto mt-auto mb-auto h-full pb-[40px] md:pb-0">
+    <div className="flex flex-col mx-[20px] sm:mx-auto mt-auto mb-auto h-full pb-[40px] md:pb-0 font-sans">
       <div>
         <img
           src={logo}
           alt="brainwahve logo"
           className="h-[100px] mx-auto mb-[25px]"
-        ></img>
+        />
         <h1 className="text-center text-[24px] text-[#000000DE]">
           Sign in to your account
         </h1>
