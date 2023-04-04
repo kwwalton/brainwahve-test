@@ -1,0 +1,9 @@
+/* NOTE: this was my first attempt to use a background image */
+.contact-sales-cta {
+  background-image: url("../assets/lookout.png");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
