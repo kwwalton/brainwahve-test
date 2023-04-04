@@ -15,7 +15,7 @@ function ContactSalesCta(props) {
           hiring challenges. We have technology that innovates and makes the job
           of Human Resources easier and more successful.
         </p>
-        <p className="text-gray-800 text-[18px] md:text-[16px] lg:text-[18px] mb-[20px]">
+        <p className="text-gray-800 text-[18px] md:text-[16px] xl:text-[18px] mb-[20px]">
           Schedule your demo today to learn more.
         </p>
         <button
